@@ -1,0 +1,12 @@
+layer_name,latency_ns
+Conv_0,191216
+MaxPool_2,139288
+Conv_3,265676
+MaxPool_5,13548
+Conv_6,139700
+Conv_8,554660
+Conv_10,554416
+MaxPool_12,6116
+Gemm_14,4719652
+Gemm_16,1049636
+Gemm_18,262704

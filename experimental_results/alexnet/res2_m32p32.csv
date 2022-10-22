@@ -1,0 +1,2 @@
+total_latency,conv_latency,other_latency,total_ops,conv_ops,other_ops,total_throughput,conv_throughput,other_throughput,FPS
+5.508 ms,1.793 ms (33%),3.715 ms (67%),1.429 GOP,1.311 GOP (92%),0.117 GOP (8%),259.345 GOP/s,731.254 GOP/s,31.609 GOP/s,181.54 Frame/s
