@@ -45,3 +45,18 @@ FPS: 181.54 Frame/s
 You can also run [plot.py](./experimental_results/alexnet/plot.py) to compare the performance of these accelerators, which will output two pictures. [throughput.png](./experimental_results/alexnet/throughput.png) shows the throughput of each convolutional layer, and [normalized_latency.png](./experimental_results/alexnet/normalized_latency.png) shows the latency breakdown of each accelerator.
 
 ![Throughput evaluation](./experimental_results/alexnet/throughput.png) ![Latency breakdown](./experimental_results/alexnet/normalized_latency.png)
+
+## Citation
+More information about this work can be found from [our paper](https://dl.acm.org/doi/10.1145/3543622.3573131), which has been accepted as a poster by FPGA'2023. Welcome to cite our paper if this work is helpful to you.
+```
+@inproceedings{10.1145/3543622.3573131,
+    author = {Chen, Yongzheng and Wu, Gang},
+    title = {A Flexible Toolflow for Mapping CNN Models to High Performance FPGA-Based Accelerators},
+    year = {2023},
+    publisher = {Association for Computing Machinery},
+    doi = {10.1145/3543622.3573131},
+    booktitle = {Proceedings of the 2023 ACM/SIGDA International Symposium on Field Programmable Gate Arrays},
+    pages = {232},
+    numpages = {1}
+}
+```
